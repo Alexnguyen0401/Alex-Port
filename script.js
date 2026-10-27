@@ -4,17 +4,33 @@
 const projects = {
   social: {
     title: "SOCIAL",
-    description: "Short-form content, social-first storytelling and brand work. Vertical format (9:16).",
+    description: "Short-form content, social-first storytelling and brand work.",
     ratio: "vertical",
     videos: [
-      { title: "Social Project 01", note: "Replace with project description", url: "https://youtube.com/shorts/Esx9Q-nXcuA" },
-      { title: "Head Talk / Social Project 02", note: "Replace with project description", url: "https://www.youtube.com/shorts/3ZGwRSuKMkc" },
-      { title: "Social Project 03", note: "Replace with project description", url: "https://youtube.com/shorts/g9duGEs5IK0?feature=share" }
+      { title: "Social Project 01",  url: "https://youtube.com/shorts/Esx9Q-nXcuA" },
+      { title: "Social Project 02",  url: "https://www.youtube.com/shorts/3ZGwRSuKMkc" },
+      { title: "Social Project 03",  url: "https://youtube.com/shorts/g9duGEs5IK0?feature=share" }
     ]
   },
-  product: { title: "PRODUCT", description: "Product films and commercial visuals. Vertical format (9:16).", ratio: "vertical", videos: [] },
-  event: { title: "EVENT RECAP", description: "Event highlights, recaps and community moments. Horizontal format (16:9).", ratio: "horizontal", videos: [] },
-  documentary: { title: "DOCUMENTARY", description: "People, places and stories told with a documentary approach. Horizontal format (16:9).", ratio: "horizontal", videos: [] }
+  product: { title: "PRODUCT", description: "Product films and commercial visuals.", ratio: "vertical",
+    videos: [
+       { title: "Product Project 01",  url: "https://youtube.com/shorts/TW-Ar-gkUb4" },
+      { title: "Product Project 02",  url: "https://youtube.com/shorts/_cDip0X5mKY" },
+      { title: "Product Project 03",  url: "https://youtube.com/shorts/myv6Lw7xwXI" }
+    ] },
+  event: { title: "EVENT RECAP", description: "Event highlights, recaps and community moments.", ratio: "horizontal", 
+    videos: [
+      { title: "Recap Project 01",  url: "https://www.youtube.com/watch?v=xikHksGsh1I" },
+      { title: "Recap Project 02",  url: "https://www.youtube.com/watch?v=Lib7T5ZeNzM" },
+      { title: "Recap Project 03",  url: "https://www.youtube.com/watch?v=1DYR_t1S1EU" }
+    ] },
+  documentary: { title: "DOCUMENTARY", description: "People, places and stories told with a documentary approach.", ratio: "horizontal", 
+                
+    videos: [
+      { title: "Documentay Project 01",  url: "https://www.youtube.com/watch?v=1intmVV3izw" },
+      { title: "Documentay Project 02",  url: "https://www.youtube.com/watch?v=SN2eFIXd14w" },
+      { title: "Documentay Project 03",  url: "https://www.youtube.com/watch?v=OaXxw_TPznU" }
+    ] }
 };
 
 const folderModal = document.getElementById("folder-modal");
